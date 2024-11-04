@@ -1,4 +1,4 @@
-bBackend -> Node Js, Express, MongoDb Atlas <br/>
+Backend -> Node Js, Express, MongoDb Atlas <br/>
 Install Npm :- npm install <br/>
 Run Backend :- npm run server <br/>
 <br/>
