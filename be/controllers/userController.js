@@ -33,7 +33,7 @@ export const logIn = async (req, res) => {
           userId: user._id,
           email: user.email,
         },
-        process.env.secretKey
+        process.env.SECRETKEY
       );
 
       // Respond with success message and token
