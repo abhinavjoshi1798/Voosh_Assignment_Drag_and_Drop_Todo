@@ -7,10 +7,11 @@ import { Dropdown } from 'react-bootstrap';
 
 const CustomNavbar = ({ user, logout }) => {
   const customImageUrl = (user) => {
-    if (user?.profile_image?.includes("https")) {
+    if (user?.profile_image?.startsWith("https")) {
       return user.profile_image;
     } else {
-      return `http://localhost:8080/images/${user.profile_image}`;
+      const baseUrl = process.env.REACT_APP_BACKEND_URL.replace("/api", "");
+      return `${baseUrl}/images/${user.profile_image}`;
     }
   }
 
