@@ -181,6 +181,7 @@ function SignUp() {
             {state.loading ? "Signing Up..." : "SignUp"}
           </Button>
         </form>
+        
         <p className="text-center mt-3">
           Already have an account? <Link to="/login">LogIn</Link>
         </p>

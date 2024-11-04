@@ -107,7 +107,7 @@ export const register = async (req, res) => {
         userId: user._id,
         email: user.email,
       },
-      process.env.secretKey
+      process.env.SECRETKEY
     );
 
     // Respond with success message
