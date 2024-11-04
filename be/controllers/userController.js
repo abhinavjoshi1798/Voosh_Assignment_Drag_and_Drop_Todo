@@ -142,8 +142,8 @@ export const googleLogIn = async (req, res) => {
       "postmessage"
     );
 
-    console.log("GOOGLE_CLIENT_ID",GOOGLE_CLIENT_ID)
-    console.log("GOOGLE_CLIENT_SECRET",GOOGLE_CLIENT_SECRET)
+    // console.log("GOOGLE_CLIENT_ID",GOOGLE_CLIENT_ID)
+    // console.log("GOOGLE_CLIENT_SECRET",GOOGLE_CLIENT_SECRET)
 
     // Exchange code for tokens
     const { tokens } = await oauth2client.getToken(code);
