@@ -33,6 +33,7 @@ function Login() {
         email,
         password,
       });
+      console.log("process.env.REACT_APP_BACKEND_URL",process.env.REACT_APP_BACKEND_URL)
 
       // Assuming the response contains the token and user data
       const { token, user } = response.data;
