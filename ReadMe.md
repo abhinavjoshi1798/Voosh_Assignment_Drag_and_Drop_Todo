@@ -7,12 +7,12 @@ Install Npm :- npm install <br/>
 Run Backend :- npm start <br/>
 <br/>
 Deployed App URL :-<br/>
-base url https://voosh-assignment-drag-and-drop-todo-eb2ti6uf7.vercel.app/<br/>
-home page https://voosh-assignment-drag-and-drop-todo-eb2ti6uf7.vercel.app/login<br/>
+base url https://voosh-assignment-drag-and-drop-todo.vercel.app/<br/>
+home page https://voosh-assignment-drag-and-drop-todo.vercel.app/login<br/>
 <br/>
 public pages :- <br/>
-https://voosh-assignment-drag-and-drop-todo-eb2ti6uf7.vercel.app/login<br/>
-https://voosh-assignment-drag-and-drop-todo-eb2ti6uf7.vercel.app/signup<br/>
+https://voosh-assignment-drag-and-drop-todo.vercel.app/login<br/>
+https://voosh-assignment-drag-and-drop-todo.vercel.app/signup<br/>
 <br/>
 Private pages :- <br/>
-https://voosh-assignment-drag-and-drop-todo-eb2ti6uf7.vercel.app/dashboard<br/>
+https://voosh-assignment-drag-and-drop-todo.vercel.app/dashboard<br/>
